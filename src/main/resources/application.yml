@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: hadoopDemo
+  servlet:
+    multipart:
+      max-file-size: 5GB
+      max-request-size: 5GB
+
+
+hadoop:
+  hdfs:
+    defaultFS: hdfs://192.168.0.131:9000
+    userName: hadoop
+    replication: 3
